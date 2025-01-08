@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 import torch
-
+'''
+the plot code is based on cellpylib
+'''
 def _add_grid_lines(ca, ax, show_grid):
     """
     Adds grid lines to the plot.
